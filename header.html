@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Office Style</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      /* Header Section */
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1a1a1a;
+        padding: 15px 30px;
+        color: white;
+        flex-wrap: wrap;
+      }
+
+      header .logo {
+        font-family: "Georgia", serif;
+        font-size: 1.8rem;
+        font-weight: bold;
+        flex: 1;
+        color: #f0a500;
+      }
+
+      header nav {
+        display: flex;
+        gap: 20px;
+        flex: 2;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      header nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        transition: color 0.3s;
+      }
+
+      header nav a:hover {
+        color: #f0a500;
+      }
+
+      header .social-links {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        flex: 1;
+        justify-content: flex-end;
+      }
+
+      header .social-links a {
+        text-decoration: none;
+        color: white;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        transition: color 0.3s;
+      }
+
+      header .social-links a:hover {
+        color: #f0a500;
+      }
+
+      
+
+      /* Media Queries for Responsiveness */
+      @media (max-width: 768px) {
+        header {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        header .logo {
+          margin-bottom: 10px;
+          text-align: center;
+        }
+
+        header nav {
+          justify-content: center;
+          margin-bottom: 10px;
+        }
+
+        header .social-links {
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        Rhod <span style="font-style: italic">Lenard</span>
+      </div>
+      <nav>
+        <a href="#">WEB DESIGN</a>
+        <a href="#">PORTFOLIO</a>
+        <a href="#">ABOUT</a>
+        <a href="#">RESOURCES</a>
+        <a href="#">CONTACT</a>
+        <a href="#">SHOP</a>
+        <a href="#">BLOG</a>
+      </nav>
+      <div class="social-links">
+        <a href="#">INSTAGRAM</a>
+        <a href="#">PINTEREST</a>
+      </div>
+    </header>
+
+    
+  
+</html>
